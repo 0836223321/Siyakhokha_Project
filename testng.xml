@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/SolarTest11/IdeaProjects/Siyakhokha_Project">
+        <classes>
+            <class name="Testcases.LoginTest">
+
+                <methods>
+                    <include name="loginTest">
+
+                    </include>
+                </methods>
+            </class>
+
+            <class name="Testcases.LinkMunicipalAccountsTest">
+                <methods>
+                    <include name="linkMunicipalAccountsTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.LinkBankAccountTest">
+                <methods>
+                    <include name="linkBankAccountTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.DetermineSiyakhokhaTransactionsTest">
+                <methods>
+                    <include name="determineTransactionsTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.UpdateProfileTest">
+                <methods>
+                    <include name="updateProfileTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.ViewStatementAndMakePaymentTest">
+                <methods>
+                    <include name="viewStatementAndMakePaymentTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.CheckPaymentStatusTest">
+                <methods>
+                    <include name="checkPaymentStatusTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.MasterPassPaymentTest">
+                <methods>
+                    <include name="masterPassPaymentTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.OnceOffPaymentAndRecurringDebitTest">
+                <methods>
+                    <include name="onceOffPaymentAndRecurringTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
